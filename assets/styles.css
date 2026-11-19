@@ -383,3 +383,14 @@ details summary + *{overflow:hidden}details.closing summary::after{transform:non
 .contact-card dd a:hover{text-decoration:underline}
 section.contact-direct{padding:clamp(48px,7vw,80px) 0;background:var(--soft)}.contact-direct .contact-card{margin:0 auto}
 .process-more{margin:40px 0 0;color:var(--muted)}.process-more a{color:var(--ink);font-weight:600;text-decoration-color:var(--accent);text-underline-offset:4px}.see-all{margin:40px 0 0}
+/* address in footer + find us map */
+footer .foot-address{font-style:normal;margin-top:12px;color:#a6a6ad}
+footer .foot-address+.foot-phone{margin-top:8px}
+.find-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:56px;align-items:center}
+.find-us h2{margin-bottom:20px}
+.find-address{font-style:normal;font-size:1.1rem;line-height:1.6;color:var(--ink)}
+.find-phone{margin:14px 0 22px}.find-phone a{font-weight:600;color:var(--ink);text-decoration:none}
+.map-frame{border-radius:20px;overflow:hidden;background:var(--line);aspect-ratio:4/3;min-width:0}
+.map-frame iframe{width:100%;height:100%;border:0;display:block}
+@media (max-width:900px){.find-grid{grid-template-columns:1fr;gap:28px}}
+.area-links{font-size:1.1rem;font-weight:600;margin:0}.area-links a{color:var(--ink);text-decoration-color:var(--accent);text-underline-offset:4px}
